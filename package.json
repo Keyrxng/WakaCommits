@@ -1,0 +1,27 @@
+{
+  "author": "keyrxng",
+  "name": "wakacommits",
+  "version": "1.0.0",
+  "description": "Will spoof one commit for any day you have coding activity on WakaTime but no commits on GitHub.",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc index.ts",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "wakatime",
+    "github",
+    "commits",
+    "spoof"
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.2",
+    "dotenv": "^16.3.1",
+    "graphql-request": "^6.1.0",
+    "typescript": "^5.3.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.3"
+  }
+}
